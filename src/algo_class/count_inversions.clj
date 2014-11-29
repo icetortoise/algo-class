@@ -26,6 +26,7 @@
 
 
 (comment
+    whatever
   (def ls (slurp "/Users/andywu/projects/algo-class/src/algo_class/count-inversions.input"))
   (import '(java.io BufferedReader StringReader))
   (def lss (line-seq (BufferedReader. (StringReader. ls))))
